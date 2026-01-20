@@ -51,7 +51,7 @@ This project allows a user to manually add stocks to their portfolio, view a rep
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Hades/PortfolioTracker.git
+   git clone https://github.com/Hades786/PortfolioTracker.git
    ```
 2. Open IntelliJ IDEA → **File → Open** → select the project folder.
 3. Ensure your **Project SDK** is set to Java 24:
