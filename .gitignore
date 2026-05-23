@@ -27,3 +27,28 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Java build outputs
+/bin/
+/target/
+*.class
+
+# Build artifacts and logs
+*.log
+test-code.txt
+test-output.txt
+portfolio_tracker.log
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Local config / secrets
+ai_config.properties
+
+# Local IDE files
+*.iml
+.idea/
+
+# Local libraries and jars
+/lib/
