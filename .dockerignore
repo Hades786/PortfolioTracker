@@ -1,0 +1,9 @@
+bin
+target
+*.log
+*.iml
+.github
+.idea
+*.class
+*.jar
+native
