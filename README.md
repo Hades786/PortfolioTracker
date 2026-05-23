@@ -10,6 +10,7 @@ A simple Java console application to track and calculate the value and profit/lo
 - [Technologies](#technologies)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Docker](#docker)
 - [Example](#example)
 - [Project Structure](#project-structure)
 - [Optional Enhancements](#optional-enhancements)
@@ -42,9 +43,11 @@ This project allows a user to manually add stocks to their portfolio, view a rep
 
 ## Technologies
 - Java 24
+- JavaFX 20.0.1 for GUI
+- Local library JARs stored in `lib/`
 - IntelliJ IDEA (or any Java IDE)
-- No external dependencies or build tools required
 - Optional: JUnit 5 for unit testing
+- Docker support included via `Dockerfile`
 
 ---
 
@@ -66,6 +69,31 @@ This project allows a user to manually add stocks to their portfolio, view a rep
    - Enter `1` to add a stock
    - Enter `2` to show the portfolio report
    - Enter `3` to exit the program
+
+---
+
+## Docker
+A `Dockerfile` is included to build and run the app inside a container.
+
+### Build the image
+```powershell
+docker build -t portfolio-tracker .
+```
+
+### Run the app
+The app uses JavaFX and requires an X11 display host.
+
+On Linux:
+```bash
+docker run --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix portfolio-tracker
+```
+
+On Windows with Docker Desktop and an X server:
+```powershell
+docker run --rm -e DISPLAY=host.docker.internal:0 portfolio-tracker
+```
+
+If display forwarding is not available, the container can still be built, but the GUI will not appear.
 
 ---
 

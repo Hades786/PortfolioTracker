@@ -1,0 +1,2537 @@
+[2026-05-23 14:08:54] [INFO] Starting Portfolio Tracker Application
+[2026-05-23 14:08:54] [INFO] Configuration file not found. Creating with defaults.
+[2026-05-23 14:08:54] [DEBUG] Configuration saved
+[2026-05-23 14:08:54] [INFO] OnlineAIService initialized. Available: false
+[2026-05-23 14:08:54] [INFO] LocalAIService initialized and ready
+[2026-05-23 14:08:54] [INFO] Switched to Local AI Service
+[2026-05-23 14:08:54] [DEBUG] Configuration saved
+[2026-05-23 14:08:54] [INFO] StockPriceService initialized
+[2026-05-23 14:08:55] [INFO] Application started successfully
+[2026-05-23 14:09:30] [INFO] Added holding: AAPL x20
+[2026-05-23 14:09:31] [INFO] Stock added to portfolio: AAPL
+[2026-05-23 14:09:32] [INFO] Fetching live prices for portfolio holdings
+[2026-05-23 14:09:33] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at PortfolioTrackerApp$1.call(PortfolioTrackerApp.java:336)
+	at PortfolioTrackerApp$1.call(PortfolioTrackerApp.java:329)
+	at javafx.graphics@20.0.1/javafx.concurrent.Task$TaskCallable.call(Task.java:1426)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+[2026-05-23 14:09:33] [INFO] Cleared all portfolio holdings
+[2026-05-23 14:09:33] [INFO] Added holding: AAPL x20
+[2026-05-23 14:09:35] [INFO] Fetching live prices for portfolio holdings
+[2026-05-23 14:09:35] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at PortfolioTrackerApp$1.call(PortfolioTrackerApp.java:336)
+	at PortfolioTrackerApp$1.call(PortfolioTrackerApp.java:329)
+	at javafx.graphics@20.0.1/javafx.concurrent.Task$TaskCallable.call(Task.java:1426)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+[2026-05-23 14:09:35] [INFO] Cleared all portfolio holdings
+[2026-05-23 14:09:35] [INFO] Added holding: AAPL x20
+[2026-05-23 14:09:46] [INFO] Generating local portfolio analysis
+[2026-05-23 14:09:46] [DEBUG] Local analysis generated successfully
+[2026-05-23 14:09:46] [INFO] Portfolio analysis generated successfully
+[2026-05-23 14:09:53] [INFO] Generating local investment recommendations
+[2026-05-23 14:09:53] [DEBUG] Local recommendations generated successfully
+[2026-05-23 14:09:53] [INFO] Investment recommendations generated successfully
+[2026-05-23 14:10:04] [INFO] Theme toggled. Dark mode: false
+[2026-05-23 14:10:10] [INFO] Theme toggled. Dark mode: true
+[2026-05-23 14:10:21] [INFO] Application closing
+[2026-05-23 14:10:21] [DEBUG] Configuration saved
+[2026-05-23 15:25:25] [INFO] Added holding: AAPL x10
+[2026-05-23 15:25:25] [INFO] Added holding: AAPL x10
+[2026-05-23 15:25:25] [INFO] Added holding: AAPL x10
+[2026-05-23 15:25:25] [ERROR] Attempted to update with null holding
+[2026-05-23 15:25:25] [INFO] Added holding: AAPL x10
+[2026-05-23 15:25:25] [INFO] Added holding: AAPL x10
+[2026-05-23 15:25:25] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:25:25] [DEBUG] Portfolio listener added
+[2026-05-23 15:25:25] [INFO] Added holding: AAPL x10
+[2026-05-23 15:25:25] [INFO] Added holding: AAPL x10
+[2026-05-23 15:25:25] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:25:25] [INFO] Removed holding: AAPL
+[2026-05-23 15:25:25] [INFO] Added holding: AAPL x10
+[2026-05-23 15:25:25] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:25:25] [INFO] Added holding: AAPL x10
+[2026-05-23 15:25:25] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:25:25] [INFO] Added holding: AAPL x10
+[2026-05-23 15:25:25] [WARNING] Invalid index for removal: 99
+[2026-05-23 15:25:25] [INFO] Added holding: AAPL x10
+[2026-05-23 15:25:25] [INFO] Updated holding: AAPL
+[2026-05-23 15:25:25] [ERROR] Attempted to add null holding
+[2026-05-23 15:25:25] [DEBUG] Failed to parse int from: abc
+[2026-05-23 15:25:25] [DEBUG] Failed to parse int from: invalid
+[2026-05-23 15:25:25] [DEBUG] Failed to parse int from: 
+[2026-05-23 15:25:25] [DEBUG] Failed to parse double from: abc
+[2026-05-23 15:25:25] [DEBUG] Failed to parse double from: invalid
+[2026-05-23 15:25:25] [DEBUG] Failed to parse double from: 
+[2026-05-23 15:25:25] [INFO] Configuration loaded from ai_config.properties
+[2026-05-23 15:25:26] [INFO] OnlineAIService initialized. Available: false
+[2026-05-23 15:25:26] [INFO] LocalAIService initialized and ready
+[2026-05-23 15:25:26] [INFO] Switched to Local AI Service
+[2026-05-23 15:25:26] [DEBUG] Configuration saved
+[2026-05-23 15:25:26] [INFO] StockPriceService initialized
+[2026-05-23 15:25:26] [INFO] StockPriceService initialized
+[2026-05-23 15:25:26] [INFO] Added holding: AAPL x10
+[2026-05-23 15:25:26] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:25:26] [INFO] Removed holding: AAPL
+[2026-05-23 15:25:26] [INFO] StockPriceService initialized
+[2026-05-23 15:25:26] [DEBUG] Portfolio listener added
+[2026-05-23 15:25:26] [INFO] Added holding: AAPL x10
+[2026-05-23 15:25:26] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:25:26] [INFO] Removed holding: AAPL
+[2026-05-23 15:25:26] [INFO] StockPriceService initialized
+[2026-05-23 15:25:26] [INFO] Added holding: AAPL x10
+[2026-05-23 15:25:26] [INFO] StockPriceService initialized
+[2026-05-23 15:25:26] [INFO] Added holding: STK0 x1
+[2026-05-23 15:25:26] [INFO] Added holding: STK1 x2
+[2026-05-23 15:25:26] [INFO] Added holding: STK2 x3
+[2026-05-23 15:25:26] [INFO] Added holding: STK3 x4
+[2026-05-23 15:25:26] [INFO] Added holding: STK4 x5
+[2026-05-23 15:25:26] [INFO] Added holding: STK5 x6
+[2026-05-23 15:25:26] [INFO] Added holding: STK6 x7
+[2026-05-23 15:25:26] [INFO] Added holding: STK7 x8
+[2026-05-23 15:25:26] [INFO] Added holding: STK8 x9
+[2026-05-23 15:25:26] [INFO] Added holding: STK9 x10
+[2026-05-23 15:25:26] [INFO] Added holding: STK10 x11
+[2026-05-23 15:25:26] [INFO] Added holding: STK11 x12
+[2026-05-23 15:25:26] [INFO] Added holding: STK12 x13
+[2026-05-23 15:25:26] [INFO] Added holding: STK13 x14
+[2026-05-23 15:25:26] [INFO] Added holding: STK14 x15
+[2026-05-23 15:25:26] [INFO] Added holding: STK15 x16
+[2026-05-23 15:25:26] [INFO] Added holding: STK16 x17
+[2026-05-23 15:25:26] [INFO] Added holding: STK17 x18
+[2026-05-23 15:25:26] [INFO] Added holding: STK18 x19
+[2026-05-23 15:25:26] [INFO] Added holding: STK19 x20
+[2026-05-23 15:25:26] [INFO] Added holding: STK20 x21
+[2026-05-23 15:25:26] [INFO] Added holding: STK21 x22
+[2026-05-23 15:25:26] [INFO] Added holding: STK22 x23
+[2026-05-23 15:25:26] [INFO] Added holding: STK23 x24
+[2026-05-23 15:25:26] [INFO] Added holding: STK24 x25
+[2026-05-23 15:25:26] [INFO] Added holding: STK25 x26
+[2026-05-23 15:25:26] [INFO] Added holding: STK26 x27
+[2026-05-23 15:25:26] [INFO] Added holding: STK27 x28
+[2026-05-23 15:25:26] [INFO] Added holding: STK28 x29
+[2026-05-23 15:25:26] [INFO] Added holding: STK29 x30
+[2026-05-23 15:25:26] [INFO] Added holding: STK30 x31
+[2026-05-23 15:25:26] [INFO] Added holding: STK31 x32
+[2026-05-23 15:25:26] [INFO] Added holding: STK32 x33
+[2026-05-23 15:25:26] [INFO] Added holding: STK33 x34
+[2026-05-23 15:25:26] [INFO] Added holding: STK34 x35
+[2026-05-23 15:25:26] [INFO] Added holding: STK35 x36
+[2026-05-23 15:25:26] [INFO] Added holding: STK36 x37
+[2026-05-23 15:25:26] [INFO] Added holding: STK37 x38
+[2026-05-23 15:25:26] [INFO] Added holding: STK38 x39
+[2026-05-23 15:25:26] [INFO] Added holding: STK39 x40
+[2026-05-23 15:25:26] [INFO] Added holding: STK40 x41
+[2026-05-23 15:25:26] [INFO] Added holding: STK41 x42
+[2026-05-23 15:25:26] [INFO] Added holding: STK42 x43
+[2026-05-23 15:25:26] [INFO] Added holding: STK43 x44
+[2026-05-23 15:25:26] [INFO] Added holding: STK44 x45
+[2026-05-23 15:25:26] [INFO] Added holding: STK45 x46
+[2026-05-23 15:25:26] [INFO] Added holding: STK46 x47
+[2026-05-23 15:25:26] [INFO] Added holding: STK47 x48
+[2026-05-23 15:25:26] [INFO] Added holding: STK48 x49
+[2026-05-23 15:25:26] [INFO] Added holding: STK49 x50
+[2026-05-23 15:25:26] [INFO] Added holding: STK50 x51
+[2026-05-23 15:25:26] [INFO] Added holding: STK51 x52
+[2026-05-23 15:25:26] [INFO] Added holding: STK52 x53
+[2026-05-23 15:25:26] [INFO] Added holding: STK53 x54
+[2026-05-23 15:25:26] [INFO] Added holding: STK54 x55
+[2026-05-23 15:25:26] [INFO] Added holding: STK55 x56
+[2026-05-23 15:25:26] [INFO] Added holding: STK56 x57
+[2026-05-23 15:25:26] [INFO] Added holding: STK57 x58
+[2026-05-23 15:25:26] [INFO] Added holding: STK58 x59
+[2026-05-23 15:25:26] [INFO] Added holding: STK59 x60
+[2026-05-23 15:25:26] [INFO] Added holding: STK60 x61
+[2026-05-23 15:25:26] [INFO] Added holding: STK61 x62
+[2026-05-23 15:25:26] [INFO] Added holding: STK62 x63
+[2026-05-23 15:25:26] [INFO] Added holding: STK63 x64
+[2026-05-23 15:25:26] [INFO] Added holding: STK64 x65
+[2026-05-23 15:25:26] [INFO] Added holding: STK65 x66
+[2026-05-23 15:25:26] [INFO] Added holding: STK66 x67
+[2026-05-23 15:25:26] [INFO] Added holding: STK67 x68
+[2026-05-23 15:25:26] [INFO] Added holding: STK68 x69
+[2026-05-23 15:25:26] [INFO] Added holding: STK69 x70
+[2026-05-23 15:25:26] [INFO] Added holding: STK70 x71
+[2026-05-23 15:25:26] [INFO] Added holding: STK71 x72
+[2026-05-23 15:25:26] [INFO] Added holding: STK72 x73
+[2026-05-23 15:25:26] [INFO] Added holding: STK73 x74
+[2026-05-23 15:25:26] [INFO] Added holding: STK74 x75
+[2026-05-23 15:25:26] [INFO] Added holding: STK75 x76
+[2026-05-23 15:25:26] [INFO] Added holding: STK76 x77
+[2026-05-23 15:25:26] [INFO] Added holding: STK77 x78
+[2026-05-23 15:25:26] [INFO] Added holding: STK78 x79
+[2026-05-23 15:25:26] [INFO] Added holding: STK79 x80
+[2026-05-23 15:25:26] [INFO] Added holding: STK80 x81
+[2026-05-23 15:25:26] [INFO] Added holding: STK81 x82
+[2026-05-23 15:25:26] [INFO] Added holding: STK82 x83
+[2026-05-23 15:25:26] [INFO] Added holding: STK83 x84
+[2026-05-23 15:25:26] [INFO] Added holding: STK84 x85
+[2026-05-23 15:25:26] [INFO] Added holding: STK85 x86
+[2026-05-23 15:25:26] [INFO] Added holding: STK86 x87
+[2026-05-23 15:25:26] [INFO] Added holding: STK87 x88
+[2026-05-23 15:25:26] [INFO] Added holding: STK88 x89
+[2026-05-23 15:25:26] [INFO] Added holding: STK89 x90
+[2026-05-23 15:25:26] [INFO] Added holding: STK90 x91
+[2026-05-23 15:25:26] [INFO] Added holding: STK91 x92
+[2026-05-23 15:25:26] [INFO] Added holding: STK92 x93
+[2026-05-23 15:25:26] [INFO] Added holding: STK93 x94
+[2026-05-23 15:25:26] [INFO] Added holding: STK94 x95
+[2026-05-23 15:25:26] [INFO] Added holding: STK95 x96
+[2026-05-23 15:25:26] [INFO] Added holding: STK96 x97
+[2026-05-23 15:25:26] [INFO] Added holding: STK97 x98
+[2026-05-23 15:25:26] [INFO] Added holding: STK98 x99
+[2026-05-23 15:25:26] [INFO] Added holding: STK99 x100
+[2026-05-23 15:25:26] [INFO] StockPriceService initialized
+[2026-05-23 15:25:26] [INFO] Added holding: AAPL x10
+[2026-05-23 15:25:26] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:25:26] [INFO] Removed holding: AAPL
+[2026-05-23 15:25:26] [INFO] Added holding: AAPL x10
+[2026-05-23 15:25:26] [INFO] StockPriceService initialized
+[2026-05-23 15:25:26] [WARNING] Invalid index for removal: 999
+[2026-05-23 15:25:26] [INFO] Added holding: AAPL x10
+[2026-05-23 15:25:26] [INFO] StockPriceService initialized
+[2026-05-23 15:25:26] [INFO] Added holding: AAPL x10
+[2026-05-23 15:25:26] [INFO] Added holding: IBM x20
+[2026-05-23 15:25:26] [INFO] Added holding: MSFT x5
+[2026-05-23 15:25:26] [INFO] StockPriceService initialized
+[2026-05-23 15:25:26] [INFO] Added holding: STK0 x1
+[2026-05-23 15:25:26] [INFO] Added holding: STK1 x1
+[2026-05-23 15:25:26] [INFO] Added holding: STK2 x1
+[2026-05-23 15:25:26] [INFO] Added holding: STK3 x1
+[2026-05-23 15:25:26] [INFO] Added holding: STK4 x1
+[2026-05-23 15:25:26] [INFO] Added holding: STK5 x1
+[2026-05-23 15:25:26] [INFO] Added holding: STK6 x1
+[2026-05-23 15:25:26] [INFO] Added holding: STK7 x1
+[2026-05-23 15:25:26] [INFO] Added holding: STK8 x1
+[2026-05-23 15:25:26] [INFO] Added holding: STK9 x1
+[2026-05-23 15:25:26] [INFO] Added holding: STK10 x1
+[2026-05-23 15:25:26] [INFO] Added holding: STK11 x1
+[2026-05-23 15:25:26] [INFO] Added holding: STK12 x1
+[2026-05-23 15:25:26] [INFO] Added holding: STK13 x1
+[2026-05-23 15:25:26] [INFO] Added holding: STK14 x1
+[2026-05-23 15:25:26] [INFO] Added holding: STK15 x1
+[2026-05-23 15:25:26] [INFO] Added holding: STK16 x1
+[2026-05-23 15:25:26] [INFO] Added holding: STK17 x1
+[2026-05-23 15:25:26] [INFO] Added holding: STK18 x1
+[2026-05-23 15:25:26] [INFO] Added holding: STK19 x1
+[2026-05-23 15:25:26] [INFO] StockPriceService initialized
+[2026-05-23 15:25:26] [INFO] Switched to Local AI Service
+[2026-05-23 15:25:26] [DEBUG] Configuration saved
+[2026-05-23 15:25:26] [INFO] StockPriceService initialized
+[2026-05-23 15:25:26] [INFO] StockPriceService initialized
+[2026-05-23 15:25:26] [INFO] StockPriceService initialized
+[2026-05-23 15:25:26] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceServiceTest.testMultipleConsecutiveCalls(StockPriceServiceTest.java:109)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:25:26] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceServiceTest.testMultipleConsecutiveCalls(StockPriceServiceTest.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:25:26] [INFO] StockPriceService initialized
+[2026-05-23 15:25:27] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceServiceTest.testSymbolCaseHandling(StockPriceServiceTest.java:121)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:25:27] [WARNING] Invalid symbol for price fetch: aapl
+[2026-05-23 15:25:27] [INFO] StockPriceService initialized
+[2026-05-23 15:25:27] [ERROR] Error fetching detailed info for AAPL
+	at StockPriceService.fetchDetailedInfo(StockPriceService.java:149)
+	at StockPriceService.getDetailedStockInfo(StockPriceService.java:76)
+	at StockPriceServiceTest.testGetDetailedStockInfo(StockPriceServiceTest.java:80)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:25:27] [INFO] StockPriceService initialized
+[2026-05-23 15:25:27] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceServiceTest.testGetCurrentPriceValidSymbol(StockPriceServiceTest.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:25:27] [INFO] StockPriceService initialized
+[2026-05-23 15:25:27] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceService.isAPIAvailable(StockPriceService.java:219)
+	at StockPriceServiceTest.testIsAPIAvailable(StockPriceServiceTest.java:22)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:25:27] [WARNING] Yahoo Finance API returned invalid price
+[2026-05-23 15:25:27] [INFO] StockPriceService initialized
+[2026-05-23 15:25:27] [WARNING] Invalid symbol for price fetch: 
+[2026-05-23 15:25:27] [WARNING] Invalid symbol for price fetch: null
+[2026-05-23 15:25:27] [WARNING] Invalid symbol for price fetch: abc
+[2026-05-23 15:25:27] [INFO] StockPriceService initialized
+[2026-05-23 15:25:27] [WARNING] Invalid symbol for price fetch: INVALIDXYZ
+[2026-05-23 15:25:27] [INFO] StockPriceService initialized
+[2026-05-23 15:25:27] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceService.getPricesForMultiple(StockPriceService.java:58)
+	at StockPriceServiceTest.testGetPricesForMultiple(StockPriceServiceTest.java:68)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:25:28] [ERROR] Error fetching price for GOOGL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceService.getPricesForMultiple(StockPriceService.java:58)
+	at StockPriceServiceTest.testGetPricesForMultiple(StockPriceServiceTest.java:68)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:25:28] [ERROR] Error fetching price for MSFT
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceService.getPricesForMultiple(StockPriceService.java:58)
+	at StockPriceServiceTest.testGetPricesForMultiple(StockPriceServiceTest.java:68)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:25:28] [INFO] StockPriceService initialized
+[2026-05-23 15:27:16] [INFO] StockPriceService initialized
+[2026-05-23 15:27:16] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceServiceTest.testMultipleConsecutiveCalls(StockPriceServiceTest.java:109)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:27:17] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceServiceTest.testMultipleConsecutiveCalls(StockPriceServiceTest.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:27:17] [INFO] StockPriceService initialized
+[2026-05-23 15:27:17] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceServiceTest.testSymbolCaseHandling(StockPriceServiceTest.java:121)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:27:17] [WARNING] Invalid symbol for price fetch: aapl
+[2026-05-23 15:27:17] [INFO] StockPriceService initialized
+[2026-05-23 15:27:17] [ERROR] Error fetching detailed info for AAPL
+	at StockPriceService.fetchDetailedInfo(StockPriceService.java:149)
+	at StockPriceService.getDetailedStockInfo(StockPriceService.java:76)
+	at StockPriceServiceTest.testGetDetailedStockInfo(StockPriceServiceTest.java:80)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:27:17] [INFO] StockPriceService initialized
+[2026-05-23 15:27:17] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceServiceTest.testGetCurrentPriceValidSymbol(StockPriceServiceTest.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:27:17] [INFO] StockPriceService initialized
+[2026-05-23 15:27:17] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceService.isAPIAvailable(StockPriceService.java:219)
+	at StockPriceServiceTest.testIsAPIAvailable(StockPriceServiceTest.java:22)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:27:17] [WARNING] Yahoo Finance API returned invalid price
+[2026-05-23 15:27:17] [INFO] StockPriceService initialized
+[2026-05-23 15:27:17] [WARNING] Invalid symbol for price fetch: 
+[2026-05-23 15:27:17] [WARNING] Invalid symbol for price fetch: null
+[2026-05-23 15:27:17] [WARNING] Invalid symbol for price fetch: abc
+[2026-05-23 15:27:17] [INFO] StockPriceService initialized
+[2026-05-23 15:27:17] [WARNING] Invalid symbol for price fetch: INVALIDXYZ
+[2026-05-23 15:27:17] [INFO] StockPriceService initialized
+[2026-05-23 15:27:18] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceService.getPricesForMultiple(StockPriceService.java:58)
+	at StockPriceServiceTest.testGetPricesForMultiple(StockPriceServiceTest.java:68)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:27:18] [ERROR] Error fetching price for GOOGL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceService.getPricesForMultiple(StockPriceService.java:58)
+	at StockPriceServiceTest.testGetPricesForMultiple(StockPriceServiceTest.java:68)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:27:18] [ERROR] Error fetching price for MSFT
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceService.getPricesForMultiple(StockPriceService.java:58)
+	at StockPriceServiceTest.testGetPricesForMultiple(StockPriceServiceTest.java:68)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:27:18] [INFO] StockPriceService initialized
+[2026-05-23 15:27:50] [INFO] Added holding: AAPL x10
+[2026-05-23 15:27:50] [INFO] Added holding: AAPL x10
+[2026-05-23 15:27:50] [INFO] Added holding: AAPL x10
+[2026-05-23 15:27:50] [ERROR] Attempted to update with null holding
+[2026-05-23 15:27:50] [INFO] Added holding: AAPL x10
+[2026-05-23 15:27:50] [INFO] Added holding: AAPL x10
+[2026-05-23 15:27:50] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:27:50] [DEBUG] Portfolio listener added
+[2026-05-23 15:27:50] [INFO] Added holding: AAPL x10
+[2026-05-23 15:27:50] [INFO] Added holding: AAPL x10
+[2026-05-23 15:27:50] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:27:50] [INFO] Removed holding: AAPL
+[2026-05-23 15:27:50] [INFO] Added holding: AAPL x10
+[2026-05-23 15:27:50] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:27:50] [INFO] Added holding: AAPL x10
+[2026-05-23 15:27:50] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:27:50] [INFO] Added holding: AAPL x10
+[2026-05-23 15:27:50] [WARNING] Invalid index for removal: 99
+[2026-05-23 15:27:50] [INFO] Added holding: AAPL x10
+[2026-05-23 15:27:50] [INFO] Updated holding: AAPL
+[2026-05-23 15:27:50] [ERROR] Attempted to add null holding
+[2026-05-23 15:27:50] [DEBUG] Failed to parse int from: abc
+[2026-05-23 15:27:50] [DEBUG] Failed to parse int from: invalid
+[2026-05-23 15:27:50] [DEBUG] Failed to parse int from: 
+[2026-05-23 15:27:50] [DEBUG] Failed to parse double from: abc
+[2026-05-23 15:27:50] [DEBUG] Failed to parse double from: invalid
+[2026-05-23 15:27:50] [DEBUG] Failed to parse double from: 
+[2026-05-23 15:27:50] [INFO] Configuration loaded from ai_config.properties
+[2026-05-23 15:27:50] [INFO] OnlineAIService initialized. Available: false
+[2026-05-23 15:27:50] [INFO] LocalAIService initialized and ready
+[2026-05-23 15:27:50] [INFO] Switched to Local AI Service
+[2026-05-23 15:27:50] [DEBUG] Configuration saved
+[2026-05-23 15:27:50] [INFO] StockPriceService initialized
+[2026-05-23 15:27:50] [INFO] StockPriceService initialized
+[2026-05-23 15:27:50] [INFO] Added holding: AAPL x10
+[2026-05-23 15:27:50] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:27:50] [INFO] Removed holding: AAPL
+[2026-05-23 15:27:50] [INFO] StockPriceService initialized
+[2026-05-23 15:27:50] [DEBUG] Portfolio listener added
+[2026-05-23 15:27:50] [INFO] Added holding: AAPL x10
+[2026-05-23 15:27:50] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:27:50] [INFO] Removed holding: AAPL
+[2026-05-23 15:27:50] [INFO] StockPriceService initialized
+[2026-05-23 15:27:50] [INFO] Added holding: AAPL x10
+[2026-05-23 15:27:50] [INFO] StockPriceService initialized
+[2026-05-23 15:27:50] [INFO] Added holding: STK0 x1
+[2026-05-23 15:27:50] [INFO] Added holding: STK1 x2
+[2026-05-23 15:27:50] [INFO] Added holding: STK2 x3
+[2026-05-23 15:27:50] [INFO] Added holding: STK3 x4
+[2026-05-23 15:27:50] [INFO] Added holding: STK4 x5
+[2026-05-23 15:27:50] [INFO] Added holding: STK5 x6
+[2026-05-23 15:27:50] [INFO] Added holding: STK6 x7
+[2026-05-23 15:27:50] [INFO] Added holding: STK7 x8
+[2026-05-23 15:27:50] [INFO] Added holding: STK8 x9
+[2026-05-23 15:27:50] [INFO] Added holding: STK9 x10
+[2026-05-23 15:27:50] [INFO] Added holding: STK10 x11
+[2026-05-23 15:27:50] [INFO] Added holding: STK11 x12
+[2026-05-23 15:27:50] [INFO] Added holding: STK12 x13
+[2026-05-23 15:27:50] [INFO] Added holding: STK13 x14
+[2026-05-23 15:27:50] [INFO] Added holding: STK14 x15
+[2026-05-23 15:27:50] [INFO] Added holding: STK15 x16
+[2026-05-23 15:27:50] [INFO] Added holding: STK16 x17
+[2026-05-23 15:27:50] [INFO] Added holding: STK17 x18
+[2026-05-23 15:27:50] [INFO] Added holding: STK18 x19
+[2026-05-23 15:27:50] [INFO] Added holding: STK19 x20
+[2026-05-23 15:27:50] [INFO] Added holding: STK20 x21
+[2026-05-23 15:27:50] [INFO] Added holding: STK21 x22
+[2026-05-23 15:27:50] [INFO] Added holding: STK22 x23
+[2026-05-23 15:27:50] [INFO] Added holding: STK23 x24
+[2026-05-23 15:27:50] [INFO] Added holding: STK24 x25
+[2026-05-23 15:27:50] [INFO] Added holding: STK25 x26
+[2026-05-23 15:27:50] [INFO] Added holding: STK26 x27
+[2026-05-23 15:27:50] [INFO] Added holding: STK27 x28
+[2026-05-23 15:27:50] [INFO] Added holding: STK28 x29
+[2026-05-23 15:27:50] [INFO] Added holding: STK29 x30
+[2026-05-23 15:27:50] [INFO] Added holding: STK30 x31
+[2026-05-23 15:27:50] [INFO] Added holding: STK31 x32
+[2026-05-23 15:27:50] [INFO] Added holding: STK32 x33
+[2026-05-23 15:27:50] [INFO] Added holding: STK33 x34
+[2026-05-23 15:27:50] [INFO] Added holding: STK34 x35
+[2026-05-23 15:27:50] [INFO] Added holding: STK35 x36
+[2026-05-23 15:27:50] [INFO] Added holding: STK36 x37
+[2026-05-23 15:27:50] [INFO] Added holding: STK37 x38
+[2026-05-23 15:27:50] [INFO] Added holding: STK38 x39
+[2026-05-23 15:27:50] [INFO] Added holding: STK39 x40
+[2026-05-23 15:27:50] [INFO] Added holding: STK40 x41
+[2026-05-23 15:27:50] [INFO] Added holding: STK41 x42
+[2026-05-23 15:27:50] [INFO] Added holding: STK42 x43
+[2026-05-23 15:27:50] [INFO] Added holding: STK43 x44
+[2026-05-23 15:27:50] [INFO] Added holding: STK44 x45
+[2026-05-23 15:27:50] [INFO] Added holding: STK45 x46
+[2026-05-23 15:27:50] [INFO] Added holding: STK46 x47
+[2026-05-23 15:27:50] [INFO] Added holding: STK47 x48
+[2026-05-23 15:27:50] [INFO] Added holding: STK48 x49
+[2026-05-23 15:27:50] [INFO] Added holding: STK49 x50
+[2026-05-23 15:27:50] [INFO] Added holding: STK50 x51
+[2026-05-23 15:27:50] [INFO] Added holding: STK51 x52
+[2026-05-23 15:27:50] [INFO] Added holding: STK52 x53
+[2026-05-23 15:27:50] [INFO] Added holding: STK53 x54
+[2026-05-23 15:27:50] [INFO] Added holding: STK54 x55
+[2026-05-23 15:27:50] [INFO] Added holding: STK55 x56
+[2026-05-23 15:27:50] [INFO] Added holding: STK56 x57
+[2026-05-23 15:27:50] [INFO] Added holding: STK57 x58
+[2026-05-23 15:27:50] [INFO] Added holding: STK58 x59
+[2026-05-23 15:27:50] [INFO] Added holding: STK59 x60
+[2026-05-23 15:27:50] [INFO] Added holding: STK60 x61
+[2026-05-23 15:27:50] [INFO] Added holding: STK61 x62
+[2026-05-23 15:27:50] [INFO] Added holding: STK62 x63
+[2026-05-23 15:27:50] [INFO] Added holding: STK63 x64
+[2026-05-23 15:27:50] [INFO] Added holding: STK64 x65
+[2026-05-23 15:27:50] [INFO] Added holding: STK65 x66
+[2026-05-23 15:27:50] [INFO] Added holding: STK66 x67
+[2026-05-23 15:27:50] [INFO] Added holding: STK67 x68
+[2026-05-23 15:27:50] [INFO] Added holding: STK68 x69
+[2026-05-23 15:27:50] [INFO] Added holding: STK69 x70
+[2026-05-23 15:27:50] [INFO] Added holding: STK70 x71
+[2026-05-23 15:27:50] [INFO] Added holding: STK71 x72
+[2026-05-23 15:27:50] [INFO] Added holding: STK72 x73
+[2026-05-23 15:27:50] [INFO] Added holding: STK73 x74
+[2026-05-23 15:27:50] [INFO] Added holding: STK74 x75
+[2026-05-23 15:27:50] [INFO] Added holding: STK75 x76
+[2026-05-23 15:27:50] [INFO] Added holding: STK76 x77
+[2026-05-23 15:27:50] [INFO] Added holding: STK77 x78
+[2026-05-23 15:27:50] [INFO] Added holding: STK78 x79
+[2026-05-23 15:27:50] [INFO] Added holding: STK79 x80
+[2026-05-23 15:27:50] [INFO] Added holding: STK80 x81
+[2026-05-23 15:27:50] [INFO] Added holding: STK81 x82
+[2026-05-23 15:27:50] [INFO] Added holding: STK82 x83
+[2026-05-23 15:27:50] [INFO] Added holding: STK83 x84
+[2026-05-23 15:27:50] [INFO] Added holding: STK84 x85
+[2026-05-23 15:27:50] [INFO] Added holding: STK85 x86
+[2026-05-23 15:27:50] [INFO] Added holding: STK86 x87
+[2026-05-23 15:27:50] [INFO] Added holding: STK87 x88
+[2026-05-23 15:27:50] [INFO] Added holding: STK88 x89
+[2026-05-23 15:27:50] [INFO] Added holding: STK89 x90
+[2026-05-23 15:27:50] [INFO] Added holding: STK90 x91
+[2026-05-23 15:27:50] [INFO] Added holding: STK91 x92
+[2026-05-23 15:27:50] [INFO] Added holding: STK92 x93
+[2026-05-23 15:27:50] [INFO] Added holding: STK93 x94
+[2026-05-23 15:27:50] [INFO] Added holding: STK94 x95
+[2026-05-23 15:27:50] [INFO] Added holding: STK95 x96
+[2026-05-23 15:27:50] [INFO] Added holding: STK96 x97
+[2026-05-23 15:27:50] [INFO] Added holding: STK97 x98
+[2026-05-23 15:27:50] [INFO] Added holding: STK98 x99
+[2026-05-23 15:27:50] [INFO] Added holding: STK99 x100
+[2026-05-23 15:27:50] [INFO] StockPriceService initialized
+[2026-05-23 15:27:50] [INFO] Added holding: AAPL x10
+[2026-05-23 15:27:50] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:27:50] [INFO] Removed holding: AAPL
+[2026-05-23 15:27:50] [INFO] Added holding: AAPL x10
+[2026-05-23 15:27:50] [INFO] StockPriceService initialized
+[2026-05-23 15:27:50] [WARNING] Invalid index for removal: 999
+[2026-05-23 15:27:50] [INFO] Added holding: AAPL x10
+[2026-05-23 15:27:50] [INFO] StockPriceService initialized
+[2026-05-23 15:27:50] [INFO] Added holding: AAPL x10
+[2026-05-23 15:27:50] [INFO] Added holding: IBM x20
+[2026-05-23 15:27:50] [INFO] Added holding: MSFT x5
+[2026-05-23 15:27:50] [INFO] StockPriceService initialized
+[2026-05-23 15:27:50] [INFO] Added holding: STK0 x1
+[2026-05-23 15:27:50] [INFO] Added holding: STK1 x1
+[2026-05-23 15:27:50] [INFO] Added holding: STK2 x1
+[2026-05-23 15:27:50] [INFO] Added holding: STK3 x1
+[2026-05-23 15:27:50] [INFO] Added holding: STK4 x1
+[2026-05-23 15:27:50] [INFO] Added holding: STK5 x1
+[2026-05-23 15:27:50] [INFO] Added holding: STK6 x1
+[2026-05-23 15:27:50] [INFO] Added holding: STK7 x1
+[2026-05-23 15:27:50] [INFO] Added holding: STK8 x1
+[2026-05-23 15:27:50] [INFO] Added holding: STK9 x1
+[2026-05-23 15:27:50] [INFO] Added holding: STK10 x1
+[2026-05-23 15:27:50] [INFO] Added holding: STK11 x1
+[2026-05-23 15:27:50] [INFO] Added holding: STK12 x1
+[2026-05-23 15:27:50] [INFO] Added holding: STK13 x1
+[2026-05-23 15:27:50] [INFO] Added holding: STK14 x1
+[2026-05-23 15:27:50] [INFO] Added holding: STK15 x1
+[2026-05-23 15:27:50] [INFO] Added holding: STK16 x1
+[2026-05-23 15:27:50] [INFO] Added holding: STK17 x1
+[2026-05-23 15:27:50] [INFO] Added holding: STK18 x1
+[2026-05-23 15:27:50] [INFO] Added holding: STK19 x1
+[2026-05-23 15:27:50] [INFO] StockPriceService initialized
+[2026-05-23 15:27:50] [INFO] Switched to Local AI Service
+[2026-05-23 15:27:50] [DEBUG] Configuration saved
+[2026-05-23 15:27:50] [INFO] StockPriceService initialized
+[2026-05-23 15:27:50] [INFO] StockPriceService initialized
+[2026-05-23 15:27:50] [INFO] StockPriceService initialized
+[2026-05-23 15:27:51] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceServiceTest.testMultipleConsecutiveCalls(StockPriceServiceTest.java:109)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:27:51] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceServiceTest.testMultipleConsecutiveCalls(StockPriceServiceTest.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:27:51] [INFO] StockPriceService initialized
+[2026-05-23 15:27:51] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceServiceTest.testSymbolCaseHandling(StockPriceServiceTest.java:121)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:27:51] [WARNING] Invalid symbol for price fetch: aapl
+[2026-05-23 15:27:51] [INFO] StockPriceService initialized
+[2026-05-23 15:27:51] [ERROR] Error fetching detailed info for AAPL
+	at StockPriceService.fetchDetailedInfo(StockPriceService.java:149)
+	at StockPriceService.getDetailedStockInfo(StockPriceService.java:76)
+	at StockPriceServiceTest.testGetDetailedStockInfo(StockPriceServiceTest.java:80)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:27:51] [INFO] StockPriceService initialized
+[2026-05-23 15:27:51] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceServiceTest.testGetCurrentPriceValidSymbol(StockPriceServiceTest.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:27:51] [INFO] StockPriceService initialized
+[2026-05-23 15:27:52] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceService.isAPIAvailable(StockPriceService.java:219)
+	at StockPriceServiceTest.testIsAPIAvailable(StockPriceServiceTest.java:22)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:27:52] [WARNING] Yahoo Finance API returned invalid price
+[2026-05-23 15:27:52] [INFO] StockPriceService initialized
+[2026-05-23 15:27:52] [WARNING] Invalid symbol for price fetch: 
+[2026-05-23 15:27:52] [WARNING] Invalid symbol for price fetch: null
+[2026-05-23 15:27:52] [WARNING] Invalid symbol for price fetch: abc
+[2026-05-23 15:27:52] [INFO] StockPriceService initialized
+[2026-05-23 15:27:52] [WARNING] Invalid symbol for price fetch: INVALIDXYZ
+[2026-05-23 15:27:52] [INFO] StockPriceService initialized
+[2026-05-23 15:27:52] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceService.getPricesForMultiple(StockPriceService.java:58)
+	at StockPriceServiceTest.testGetPricesForMultiple(StockPriceServiceTest.java:68)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:27:52] [ERROR] Error fetching price for GOOGL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceService.getPricesForMultiple(StockPriceService.java:58)
+	at StockPriceServiceTest.testGetPricesForMultiple(StockPriceServiceTest.java:68)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:27:52] [ERROR] Error fetching price for MSFT
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceService.getPricesForMultiple(StockPriceService.java:58)
+	at StockPriceServiceTest.testGetPricesForMultiple(StockPriceServiceTest.java:68)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:27:52] [INFO] StockPriceService initialized
+[2026-05-23 15:28:12] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:12] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:12] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:12] [ERROR] Attempted to update with null holding
+[2026-05-23 15:28:12] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:12] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:12] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:28:12] [DEBUG] Portfolio listener added
+[2026-05-23 15:28:12] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:12] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:12] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:28:12] [INFO] Removed holding: AAPL
+[2026-05-23 15:28:12] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:12] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:28:12] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:12] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:28:12] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:12] [WARNING] Invalid index for removal: 99
+[2026-05-23 15:28:12] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:12] [INFO] Updated holding: AAPL
+[2026-05-23 15:28:12] [ERROR] Attempted to add null holding
+[2026-05-23 15:28:12] [DEBUG] Failed to parse int from: abc
+[2026-05-23 15:28:12] [DEBUG] Failed to parse int from: invalid
+[2026-05-23 15:28:12] [DEBUG] Failed to parse int from: 
+[2026-05-23 15:28:12] [DEBUG] Failed to parse double from: abc
+[2026-05-23 15:28:12] [DEBUG] Failed to parse double from: invalid
+[2026-05-23 15:28:12] [DEBUG] Failed to parse double from: 
+[2026-05-23 15:28:12] [INFO] Configuration loaded from ai_config.properties
+[2026-05-23 15:28:12] [INFO] OnlineAIService initialized. Available: false
+[2026-05-23 15:28:12] [INFO] LocalAIService initialized and ready
+[2026-05-23 15:28:12] [INFO] Switched to Local AI Service
+[2026-05-23 15:28:12] [DEBUG] Configuration saved
+[2026-05-23 15:28:12] [INFO] StockPriceService initialized
+[2026-05-23 15:28:12] [INFO] StockPriceService initialized
+[2026-05-23 15:28:12] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:12] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:28:12] [INFO] Removed holding: AAPL
+[2026-05-23 15:28:12] [INFO] StockPriceService initialized
+[2026-05-23 15:28:12] [DEBUG] Portfolio listener added
+[2026-05-23 15:28:12] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:12] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:28:12] [INFO] Removed holding: AAPL
+[2026-05-23 15:28:12] [INFO] StockPriceService initialized
+[2026-05-23 15:28:12] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:12] [INFO] StockPriceService initialized
+[2026-05-23 15:28:12] [INFO] Added holding: STK0 x1
+[2026-05-23 15:28:12] [INFO] Added holding: STK1 x2
+[2026-05-23 15:28:12] [INFO] Added holding: STK2 x3
+[2026-05-23 15:28:12] [INFO] Added holding: STK3 x4
+[2026-05-23 15:28:12] [INFO] Added holding: STK4 x5
+[2026-05-23 15:28:12] [INFO] Added holding: STK5 x6
+[2026-05-23 15:28:12] [INFO] Added holding: STK6 x7
+[2026-05-23 15:28:12] [INFO] Added holding: STK7 x8
+[2026-05-23 15:28:12] [INFO] Added holding: STK8 x9
+[2026-05-23 15:28:12] [INFO] Added holding: STK9 x10
+[2026-05-23 15:28:12] [INFO] Added holding: STK10 x11
+[2026-05-23 15:28:12] [INFO] Added holding: STK11 x12
+[2026-05-23 15:28:12] [INFO] Added holding: STK12 x13
+[2026-05-23 15:28:12] [INFO] Added holding: STK13 x14
+[2026-05-23 15:28:12] [INFO] Added holding: STK14 x15
+[2026-05-23 15:28:12] [INFO] Added holding: STK15 x16
+[2026-05-23 15:28:12] [INFO] Added holding: STK16 x17
+[2026-05-23 15:28:12] [INFO] Added holding: STK17 x18
+[2026-05-23 15:28:12] [INFO] Added holding: STK18 x19
+[2026-05-23 15:28:12] [INFO] Added holding: STK19 x20
+[2026-05-23 15:28:12] [INFO] Added holding: STK20 x21
+[2026-05-23 15:28:12] [INFO] Added holding: STK21 x22
+[2026-05-23 15:28:12] [INFO] Added holding: STK22 x23
+[2026-05-23 15:28:12] [INFO] Added holding: STK23 x24
+[2026-05-23 15:28:12] [INFO] Added holding: STK24 x25
+[2026-05-23 15:28:12] [INFO] Added holding: STK25 x26
+[2026-05-23 15:28:12] [INFO] Added holding: STK26 x27
+[2026-05-23 15:28:12] [INFO] Added holding: STK27 x28
+[2026-05-23 15:28:12] [INFO] Added holding: STK28 x29
+[2026-05-23 15:28:12] [INFO] Added holding: STK29 x30
+[2026-05-23 15:28:12] [INFO] Added holding: STK30 x31
+[2026-05-23 15:28:12] [INFO] Added holding: STK31 x32
+[2026-05-23 15:28:12] [INFO] Added holding: STK32 x33
+[2026-05-23 15:28:12] [INFO] Added holding: STK33 x34
+[2026-05-23 15:28:12] [INFO] Added holding: STK34 x35
+[2026-05-23 15:28:12] [INFO] Added holding: STK35 x36
+[2026-05-23 15:28:12] [INFO] Added holding: STK36 x37
+[2026-05-23 15:28:12] [INFO] Added holding: STK37 x38
+[2026-05-23 15:28:12] [INFO] Added holding: STK38 x39
+[2026-05-23 15:28:12] [INFO] Added holding: STK39 x40
+[2026-05-23 15:28:12] [INFO] Added holding: STK40 x41
+[2026-05-23 15:28:12] [INFO] Added holding: STK41 x42
+[2026-05-23 15:28:12] [INFO] Added holding: STK42 x43
+[2026-05-23 15:28:12] [INFO] Added holding: STK43 x44
+[2026-05-23 15:28:12] [INFO] Added holding: STK44 x45
+[2026-05-23 15:28:12] [INFO] Added holding: STK45 x46
+[2026-05-23 15:28:12] [INFO] Added holding: STK46 x47
+[2026-05-23 15:28:12] [INFO] Added holding: STK47 x48
+[2026-05-23 15:28:12] [INFO] Added holding: STK48 x49
+[2026-05-23 15:28:12] [INFO] Added holding: STK49 x50
+[2026-05-23 15:28:12] [INFO] Added holding: STK50 x51
+[2026-05-23 15:28:12] [INFO] Added holding: STK51 x52
+[2026-05-23 15:28:12] [INFO] Added holding: STK52 x53
+[2026-05-23 15:28:12] [INFO] Added holding: STK53 x54
+[2026-05-23 15:28:12] [INFO] Added holding: STK54 x55
+[2026-05-23 15:28:12] [INFO] Added holding: STK55 x56
+[2026-05-23 15:28:12] [INFO] Added holding: STK56 x57
+[2026-05-23 15:28:12] [INFO] Added holding: STK57 x58
+[2026-05-23 15:28:12] [INFO] Added holding: STK58 x59
+[2026-05-23 15:28:12] [INFO] Added holding: STK59 x60
+[2026-05-23 15:28:12] [INFO] Added holding: STK60 x61
+[2026-05-23 15:28:12] [INFO] Added holding: STK61 x62
+[2026-05-23 15:28:12] [INFO] Added holding: STK62 x63
+[2026-05-23 15:28:12] [INFO] Added holding: STK63 x64
+[2026-05-23 15:28:12] [INFO] Added holding: STK64 x65
+[2026-05-23 15:28:12] [INFO] Added holding: STK65 x66
+[2026-05-23 15:28:12] [INFO] Added holding: STK66 x67
+[2026-05-23 15:28:12] [INFO] Added holding: STK67 x68
+[2026-05-23 15:28:12] [INFO] Added holding: STK68 x69
+[2026-05-23 15:28:12] [INFO] Added holding: STK69 x70
+[2026-05-23 15:28:12] [INFO] Added holding: STK70 x71
+[2026-05-23 15:28:12] [INFO] Added holding: STK71 x72
+[2026-05-23 15:28:12] [INFO] Added holding: STK72 x73
+[2026-05-23 15:28:12] [INFO] Added holding: STK73 x74
+[2026-05-23 15:28:12] [INFO] Added holding: STK74 x75
+[2026-05-23 15:28:12] [INFO] Added holding: STK75 x76
+[2026-05-23 15:28:12] [INFO] Added holding: STK76 x77
+[2026-05-23 15:28:12] [INFO] Added holding: STK77 x78
+[2026-05-23 15:28:12] [INFO] Added holding: STK78 x79
+[2026-05-23 15:28:12] [INFO] Added holding: STK79 x80
+[2026-05-23 15:28:12] [INFO] Added holding: STK80 x81
+[2026-05-23 15:28:12] [INFO] Added holding: STK81 x82
+[2026-05-23 15:28:12] [INFO] Added holding: STK82 x83
+[2026-05-23 15:28:12] [INFO] Added holding: STK83 x84
+[2026-05-23 15:28:12] [INFO] Added holding: STK84 x85
+[2026-05-23 15:28:12] [INFO] Added holding: STK85 x86
+[2026-05-23 15:28:12] [INFO] Added holding: STK86 x87
+[2026-05-23 15:28:12] [INFO] Added holding: STK87 x88
+[2026-05-23 15:28:12] [INFO] Added holding: STK88 x89
+[2026-05-23 15:28:12] [INFO] Added holding: STK89 x90
+[2026-05-23 15:28:12] [INFO] Added holding: STK90 x91
+[2026-05-23 15:28:12] [INFO] Added holding: STK91 x92
+[2026-05-23 15:28:12] [INFO] Added holding: STK92 x93
+[2026-05-23 15:28:12] [INFO] Added holding: STK93 x94
+[2026-05-23 15:28:12] [INFO] Added holding: STK94 x95
+[2026-05-23 15:28:12] [INFO] Added holding: STK95 x96
+[2026-05-23 15:28:12] [INFO] Added holding: STK96 x97
+[2026-05-23 15:28:12] [INFO] Added holding: STK97 x98
+[2026-05-23 15:28:12] [INFO] Added holding: STK98 x99
+[2026-05-23 15:28:12] [INFO] Added holding: STK99 x100
+[2026-05-23 15:28:12] [INFO] StockPriceService initialized
+[2026-05-23 15:28:12] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:12] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:28:12] [INFO] Removed holding: AAPL
+[2026-05-23 15:28:12] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:12] [INFO] StockPriceService initialized
+[2026-05-23 15:28:12] [WARNING] Invalid index for removal: 999
+[2026-05-23 15:28:12] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:12] [INFO] StockPriceService initialized
+[2026-05-23 15:28:12] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:12] [INFO] Added holding: IBM x20
+[2026-05-23 15:28:12] [INFO] Added holding: MSFT x5
+[2026-05-23 15:28:12] [INFO] StockPriceService initialized
+[2026-05-23 15:28:12] [INFO] Added holding: STK0 x1
+[2026-05-23 15:28:12] [INFO] Added holding: STK1 x1
+[2026-05-23 15:28:12] [INFO] Added holding: STK2 x1
+[2026-05-23 15:28:12] [INFO] Added holding: STK3 x1
+[2026-05-23 15:28:12] [INFO] Added holding: STK4 x1
+[2026-05-23 15:28:12] [INFO] Added holding: STK5 x1
+[2026-05-23 15:28:12] [INFO] Added holding: STK6 x1
+[2026-05-23 15:28:12] [INFO] Added holding: STK7 x1
+[2026-05-23 15:28:12] [INFO] Added holding: STK8 x1
+[2026-05-23 15:28:12] [INFO] Added holding: STK9 x1
+[2026-05-23 15:28:12] [INFO] Added holding: STK10 x1
+[2026-05-23 15:28:12] [INFO] Added holding: STK11 x1
+[2026-05-23 15:28:12] [INFO] Added holding: STK12 x1
+[2026-05-23 15:28:12] [INFO] Added holding: STK13 x1
+[2026-05-23 15:28:12] [INFO] Added holding: STK14 x1
+[2026-05-23 15:28:12] [INFO] Added holding: STK15 x1
+[2026-05-23 15:28:12] [INFO] Added holding: STK16 x1
+[2026-05-23 15:28:12] [INFO] Added holding: STK17 x1
+[2026-05-23 15:28:12] [INFO] Added holding: STK18 x1
+[2026-05-23 15:28:12] [INFO] Added holding: STK19 x1
+[2026-05-23 15:28:12] [INFO] StockPriceService initialized
+[2026-05-23 15:28:12] [INFO] Switched to Local AI Service
+[2026-05-23 15:28:12] [DEBUG] Configuration saved
+[2026-05-23 15:28:12] [INFO] StockPriceService initialized
+[2026-05-23 15:28:12] [INFO] StockPriceService initialized
+[2026-05-23 15:28:12] [INFO] StockPriceService initialized
+[2026-05-23 15:28:13] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceServiceTest.testMultipleConsecutiveCalls(StockPriceServiceTest.java:109)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:28:13] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceServiceTest.testMultipleConsecutiveCalls(StockPriceServiceTest.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:28:13] [INFO] StockPriceService initialized
+[2026-05-23 15:28:13] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceServiceTest.testSymbolCaseHandling(StockPriceServiceTest.java:121)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:28:13] [WARNING] Invalid symbol for price fetch: aapl
+[2026-05-23 15:28:13] [INFO] StockPriceService initialized
+[2026-05-23 15:28:13] [ERROR] Error fetching detailed info for AAPL
+	at StockPriceService.fetchDetailedInfo(StockPriceService.java:149)
+	at StockPriceService.getDetailedStockInfo(StockPriceService.java:76)
+	at StockPriceServiceTest.testGetDetailedStockInfo(StockPriceServiceTest.java:80)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:28:13] [INFO] StockPriceService initialized
+[2026-05-23 15:28:14] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceServiceTest.testGetCurrentPriceValidSymbol(StockPriceServiceTest.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:28:14] [INFO] StockPriceService initialized
+[2026-05-23 15:28:14] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceService.isAPIAvailable(StockPriceService.java:219)
+	at StockPriceServiceTest.testIsAPIAvailable(StockPriceServiceTest.java:22)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:28:14] [WARNING] Yahoo Finance API returned invalid price
+[2026-05-23 15:28:14] [INFO] StockPriceService initialized
+[2026-05-23 15:28:14] [WARNING] Invalid symbol for price fetch: 
+[2026-05-23 15:28:14] [WARNING] Invalid symbol for price fetch: null
+[2026-05-23 15:28:14] [WARNING] Invalid symbol for price fetch: abc
+[2026-05-23 15:28:14] [INFO] StockPriceService initialized
+[2026-05-23 15:28:14] [WARNING] Invalid symbol for price fetch: INVALIDXYZ
+[2026-05-23 15:28:14] [INFO] StockPriceService initialized
+[2026-05-23 15:28:14] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceService.getPricesForMultiple(StockPriceService.java:58)
+	at StockPriceServiceTest.testGetPricesForMultiple(StockPriceServiceTest.java:68)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:28:14] [ERROR] Error fetching price for GOOGL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceService.getPricesForMultiple(StockPriceService.java:58)
+	at StockPriceServiceTest.testGetPricesForMultiple(StockPriceServiceTest.java:68)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:28:14] [ERROR] Error fetching price for MSFT
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceService.getPricesForMultiple(StockPriceService.java:58)
+	at StockPriceServiceTest.testGetPricesForMultiple(StockPriceServiceTest.java:68)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:28:14] [INFO] StockPriceService initialized
+[2026-05-23 15:28:40] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:40] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:40] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:40] [ERROR] Attempted to update with null holding
+[2026-05-23 15:28:40] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:40] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:40] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:28:40] [DEBUG] Portfolio listener added
+[2026-05-23 15:28:40] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:40] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:40] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:28:40] [INFO] Removed holding: AAPL
+[2026-05-23 15:28:40] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:40] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:28:40] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:40] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:28:40] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:40] [WARNING] Invalid index for removal: 99
+[2026-05-23 15:28:40] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:40] [INFO] Updated holding: AAPL
+[2026-05-23 15:28:40] [ERROR] Attempted to add null holding
+[2026-05-23 15:28:40] [DEBUG] Failed to parse int from: abc
+[2026-05-23 15:28:40] [DEBUG] Failed to parse int from: invalid
+[2026-05-23 15:28:40] [DEBUG] Failed to parse int from: 
+[2026-05-23 15:28:40] [DEBUG] Failed to parse double from: abc
+[2026-05-23 15:28:40] [DEBUG] Failed to parse double from: invalid
+[2026-05-23 15:28:40] [DEBUG] Failed to parse double from: 
+[2026-05-23 15:28:40] [INFO] Configuration loaded from ai_config.properties
+[2026-05-23 15:28:40] [INFO] OnlineAIService initialized. Available: false
+[2026-05-23 15:28:40] [INFO] LocalAIService initialized and ready
+[2026-05-23 15:28:40] [INFO] Switched to Local AI Service
+[2026-05-23 15:28:40] [DEBUG] Configuration saved
+[2026-05-23 15:28:40] [INFO] StockPriceService initialized
+[2026-05-23 15:28:40] [INFO] StockPriceService initialized
+[2026-05-23 15:28:40] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:40] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:28:40] [INFO] Removed holding: AAPL
+[2026-05-23 15:28:40] [INFO] StockPriceService initialized
+[2026-05-23 15:28:40] [DEBUG] Portfolio listener added
+[2026-05-23 15:28:40] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:40] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:28:40] [INFO] Removed holding: AAPL
+[2026-05-23 15:28:40] [INFO] StockPriceService initialized
+[2026-05-23 15:28:40] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:40] [INFO] StockPriceService initialized
+[2026-05-23 15:28:40] [INFO] Added holding: STK0 x1
+[2026-05-23 15:28:40] [INFO] Added holding: STK1 x2
+[2026-05-23 15:28:40] [INFO] Added holding: STK2 x3
+[2026-05-23 15:28:40] [INFO] Added holding: STK3 x4
+[2026-05-23 15:28:40] [INFO] Added holding: STK4 x5
+[2026-05-23 15:28:40] [INFO] Added holding: STK5 x6
+[2026-05-23 15:28:40] [INFO] Added holding: STK6 x7
+[2026-05-23 15:28:40] [INFO] Added holding: STK7 x8
+[2026-05-23 15:28:40] [INFO] Added holding: STK8 x9
+[2026-05-23 15:28:40] [INFO] Added holding: STK9 x10
+[2026-05-23 15:28:40] [INFO] Added holding: STK10 x11
+[2026-05-23 15:28:40] [INFO] Added holding: STK11 x12
+[2026-05-23 15:28:40] [INFO] Added holding: STK12 x13
+[2026-05-23 15:28:40] [INFO] Added holding: STK13 x14
+[2026-05-23 15:28:40] [INFO] Added holding: STK14 x15
+[2026-05-23 15:28:40] [INFO] Added holding: STK15 x16
+[2026-05-23 15:28:40] [INFO] Added holding: STK16 x17
+[2026-05-23 15:28:40] [INFO] Added holding: STK17 x18
+[2026-05-23 15:28:40] [INFO] Added holding: STK18 x19
+[2026-05-23 15:28:40] [INFO] Added holding: STK19 x20
+[2026-05-23 15:28:40] [INFO] Added holding: STK20 x21
+[2026-05-23 15:28:40] [INFO] Added holding: STK21 x22
+[2026-05-23 15:28:40] [INFO] Added holding: STK22 x23
+[2026-05-23 15:28:40] [INFO] Added holding: STK23 x24
+[2026-05-23 15:28:40] [INFO] Added holding: STK24 x25
+[2026-05-23 15:28:40] [INFO] Added holding: STK25 x26
+[2026-05-23 15:28:40] [INFO] Added holding: STK26 x27
+[2026-05-23 15:28:40] [INFO] Added holding: STK27 x28
+[2026-05-23 15:28:40] [INFO] Added holding: STK28 x29
+[2026-05-23 15:28:40] [INFO] Added holding: STK29 x30
+[2026-05-23 15:28:40] [INFO] Added holding: STK30 x31
+[2026-05-23 15:28:40] [INFO] Added holding: STK31 x32
+[2026-05-23 15:28:40] [INFO] Added holding: STK32 x33
+[2026-05-23 15:28:40] [INFO] Added holding: STK33 x34
+[2026-05-23 15:28:40] [INFO] Added holding: STK34 x35
+[2026-05-23 15:28:40] [INFO] Added holding: STK35 x36
+[2026-05-23 15:28:40] [INFO] Added holding: STK36 x37
+[2026-05-23 15:28:40] [INFO] Added holding: STK37 x38
+[2026-05-23 15:28:40] [INFO] Added holding: STK38 x39
+[2026-05-23 15:28:40] [INFO] Added holding: STK39 x40
+[2026-05-23 15:28:40] [INFO] Added holding: STK40 x41
+[2026-05-23 15:28:40] [INFO] Added holding: STK41 x42
+[2026-05-23 15:28:40] [INFO] Added holding: STK42 x43
+[2026-05-23 15:28:40] [INFO] Added holding: STK43 x44
+[2026-05-23 15:28:40] [INFO] Added holding: STK44 x45
+[2026-05-23 15:28:40] [INFO] Added holding: STK45 x46
+[2026-05-23 15:28:40] [INFO] Added holding: STK46 x47
+[2026-05-23 15:28:40] [INFO] Added holding: STK47 x48
+[2026-05-23 15:28:40] [INFO] Added holding: STK48 x49
+[2026-05-23 15:28:40] [INFO] Added holding: STK49 x50
+[2026-05-23 15:28:40] [INFO] Added holding: STK50 x51
+[2026-05-23 15:28:40] [INFO] Added holding: STK51 x52
+[2026-05-23 15:28:40] [INFO] Added holding: STK52 x53
+[2026-05-23 15:28:40] [INFO] Added holding: STK53 x54
+[2026-05-23 15:28:40] [INFO] Added holding: STK54 x55
+[2026-05-23 15:28:40] [INFO] Added holding: STK55 x56
+[2026-05-23 15:28:40] [INFO] Added holding: STK56 x57
+[2026-05-23 15:28:40] [INFO] Added holding: STK57 x58
+[2026-05-23 15:28:40] [INFO] Added holding: STK58 x59
+[2026-05-23 15:28:40] [INFO] Added holding: STK59 x60
+[2026-05-23 15:28:40] [INFO] Added holding: STK60 x61
+[2026-05-23 15:28:40] [INFO] Added holding: STK61 x62
+[2026-05-23 15:28:40] [INFO] Added holding: STK62 x63
+[2026-05-23 15:28:40] [INFO] Added holding: STK63 x64
+[2026-05-23 15:28:40] [INFO] Added holding: STK64 x65
+[2026-05-23 15:28:40] [INFO] Added holding: STK65 x66
+[2026-05-23 15:28:40] [INFO] Added holding: STK66 x67
+[2026-05-23 15:28:40] [INFO] Added holding: STK67 x68
+[2026-05-23 15:28:40] [INFO] Added holding: STK68 x69
+[2026-05-23 15:28:40] [INFO] Added holding: STK69 x70
+[2026-05-23 15:28:40] [INFO] Added holding: STK70 x71
+[2026-05-23 15:28:40] [INFO] Added holding: STK71 x72
+[2026-05-23 15:28:40] [INFO] Added holding: STK72 x73
+[2026-05-23 15:28:40] [INFO] Added holding: STK73 x74
+[2026-05-23 15:28:40] [INFO] Added holding: STK74 x75
+[2026-05-23 15:28:40] [INFO] Added holding: STK75 x76
+[2026-05-23 15:28:40] [INFO] Added holding: STK76 x77
+[2026-05-23 15:28:40] [INFO] Added holding: STK77 x78
+[2026-05-23 15:28:40] [INFO] Added holding: STK78 x79
+[2026-05-23 15:28:40] [INFO] Added holding: STK79 x80
+[2026-05-23 15:28:40] [INFO] Added holding: STK80 x81
+[2026-05-23 15:28:40] [INFO] Added holding: STK81 x82
+[2026-05-23 15:28:40] [INFO] Added holding: STK82 x83
+[2026-05-23 15:28:40] [INFO] Added holding: STK83 x84
+[2026-05-23 15:28:40] [INFO] Added holding: STK84 x85
+[2026-05-23 15:28:40] [INFO] Added holding: STK85 x86
+[2026-05-23 15:28:40] [INFO] Added holding: STK86 x87
+[2026-05-23 15:28:40] [INFO] Added holding: STK87 x88
+[2026-05-23 15:28:40] [INFO] Added holding: STK88 x89
+[2026-05-23 15:28:40] [INFO] Added holding: STK89 x90
+[2026-05-23 15:28:40] [INFO] Added holding: STK90 x91
+[2026-05-23 15:28:40] [INFO] Added holding: STK91 x92
+[2026-05-23 15:28:40] [INFO] Added holding: STK92 x93
+[2026-05-23 15:28:40] [INFO] Added holding: STK93 x94
+[2026-05-23 15:28:40] [INFO] Added holding: STK94 x95
+[2026-05-23 15:28:40] [INFO] Added holding: STK95 x96
+[2026-05-23 15:28:40] [INFO] Added holding: STK96 x97
+[2026-05-23 15:28:40] [INFO] Added holding: STK97 x98
+[2026-05-23 15:28:40] [INFO] Added holding: STK98 x99
+[2026-05-23 15:28:40] [INFO] Added holding: STK99 x100
+[2026-05-23 15:28:40] [INFO] StockPriceService initialized
+[2026-05-23 15:28:40] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:40] [INFO] Added holding: GOOGL x5
+[2026-05-23 15:28:40] [INFO] Removed holding: AAPL
+[2026-05-23 15:28:40] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:40] [INFO] StockPriceService initialized
+[2026-05-23 15:28:40] [WARNING] Invalid index for removal: 999
+[2026-05-23 15:28:40] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:40] [INFO] StockPriceService initialized
+[2026-05-23 15:28:40] [INFO] Added holding: AAPL x10
+[2026-05-23 15:28:40] [INFO] Added holding: IBM x20
+[2026-05-23 15:28:40] [INFO] Added holding: MSFT x5
+[2026-05-23 15:28:40] [INFO] StockPriceService initialized
+[2026-05-23 15:28:40] [INFO] Added holding: STK0 x1
+[2026-05-23 15:28:40] [INFO] Added holding: STK1 x1
+[2026-05-23 15:28:40] [INFO] Added holding: STK2 x1
+[2026-05-23 15:28:40] [INFO] Added holding: STK3 x1
+[2026-05-23 15:28:40] [INFO] Added holding: STK4 x1
+[2026-05-23 15:28:40] [INFO] Added holding: STK5 x1
+[2026-05-23 15:28:40] [INFO] Added holding: STK6 x1
+[2026-05-23 15:28:40] [INFO] Added holding: STK7 x1
+[2026-05-23 15:28:40] [INFO] Added holding: STK8 x1
+[2026-05-23 15:28:40] [INFO] Added holding: STK9 x1
+[2026-05-23 15:28:40] [INFO] Added holding: STK10 x1
+[2026-05-23 15:28:40] [INFO] Added holding: STK11 x1
+[2026-05-23 15:28:40] [INFO] Added holding: STK12 x1
+[2026-05-23 15:28:40] [INFO] Added holding: STK13 x1
+[2026-05-23 15:28:40] [INFO] Added holding: STK14 x1
+[2026-05-23 15:28:40] [INFO] Added holding: STK15 x1
+[2026-05-23 15:28:40] [INFO] Added holding: STK16 x1
+[2026-05-23 15:28:40] [INFO] Added holding: STK17 x1
+[2026-05-23 15:28:40] [INFO] Added holding: STK18 x1
+[2026-05-23 15:28:40] [INFO] Added holding: STK19 x1
+[2026-05-23 15:28:40] [INFO] StockPriceService initialized
+[2026-05-23 15:28:40] [INFO] Switched to Local AI Service
+[2026-05-23 15:28:40] [DEBUG] Configuration saved
+[2026-05-23 15:28:40] [INFO] StockPriceService initialized
+[2026-05-23 15:28:40] [INFO] StockPriceService initialized
+[2026-05-23 15:28:40] [INFO] StockPriceService initialized
+[2026-05-23 15:28:41] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceServiceTest.testMultipleConsecutiveCalls(StockPriceServiceTest.java:109)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:28:41] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceServiceTest.testMultipleConsecutiveCalls(StockPriceServiceTest.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:28:41] [INFO] StockPriceService initialized
+[2026-05-23 15:28:41] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceServiceTest.testSymbolCaseHandling(StockPriceServiceTest.java:121)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:28:41] [WARNING] Invalid symbol for price fetch: aapl
+[2026-05-23 15:28:41] [INFO] StockPriceService initialized
+[2026-05-23 15:28:41] [ERROR] Error fetching detailed info for AAPL
+	at StockPriceService.fetchDetailedInfo(StockPriceService.java:149)
+	at StockPriceService.getDetailedStockInfo(StockPriceService.java:76)
+	at StockPriceServiceTest.testGetDetailedStockInfo(StockPriceServiceTest.java:80)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:28:41] [INFO] StockPriceService initialized
+[2026-05-23 15:28:41] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceServiceTest.testGetCurrentPriceValidSymbol(StockPriceServiceTest.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:28:41] [INFO] StockPriceService initialized
+[2026-05-23 15:28:42] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceService.isAPIAvailable(StockPriceService.java:219)
+	at StockPriceServiceTest.testIsAPIAvailable(StockPriceServiceTest.java:22)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:28:42] [WARNING] Yahoo Finance API returned invalid price
+[2026-05-23 15:28:42] [INFO] StockPriceService initialized
+[2026-05-23 15:28:42] [WARNING] Invalid symbol for price fetch: 
+[2026-05-23 15:28:42] [WARNING] Invalid symbol for price fetch: null
+[2026-05-23 15:28:42] [WARNING] Invalid symbol for price fetch: abc
+[2026-05-23 15:28:42] [INFO] StockPriceService initialized
+[2026-05-23 15:28:42] [WARNING] Invalid symbol for price fetch: INVALIDXYZ
+[2026-05-23 15:28:42] [INFO] StockPriceService initialized
+[2026-05-23 15:28:42] [ERROR] Error fetching price for AAPL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceService.getPricesForMultiple(StockPriceService.java:58)
+	at StockPriceServiceTest.testGetPricesForMultiple(StockPriceServiceTest.java:68)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:28:42] [ERROR] Error fetching price for GOOGL
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceService.getPricesForMultiple(StockPriceService.java:58)
+	at StockPriceServiceTest.testGetPricesForMultiple(StockPriceServiceTest.java:68)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:28:42] [ERROR] Error fetching price for MSFT
+	at StockPriceService.fetchPriceFromYahoo(StockPriceService.java:104)
+	at StockPriceService.getCurrentPrice(StockPriceService.java:41)
+	at StockPriceService.getPricesForMultiple(StockPriceService.java:58)
+	at StockPriceServiceTest.testGetPricesForMultiple(StockPriceServiceTest.java:68)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.runMain(JUnitCore.java:77)
+	at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+
+[2026-05-23 15:28:42] [INFO] StockPriceService initialized

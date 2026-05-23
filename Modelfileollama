@@ -1,0 +1,1 @@
+FROM glm-4.7-flash  PARAMETER num_ctx 65536  create glm-4.7-flash-64k -f Modelfileclaude --model glm-4.7-flash-64k
